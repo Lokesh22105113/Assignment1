@@ -1,0 +1,5 @@
+gi=float(input("enter gross income"))
+nod=int(input("enter number of independents"))
+ti=gi-10000-float(3000*nod)
+net_tax=float(ti*0.2)
+print("net tax is", net_tax)
